@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This program prints all the even numbers from 0 to 100
  */
 package assignment01;
 
@@ -10,12 +8,14 @@ package assignment01;
  * @author jaani
  */
 public class Assignment01 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+    public static void main(String[] args) {
+        // Running loop to print all the even numbers from 0 to 100
+        for (int i=0; i< 100; i++){
+            
+            if(i%2 ==0){
+                System.out.println(i);
+            }
+        }     
+    }
 }
